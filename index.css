@@ -58,16 +58,16 @@ nav ul li a:hover {
 }
 
 .class-entry {
-    display: flex; /* Makes justify-content and align-items work */
-    justify-content: space-between; /* Spread elements horizontally */
-    align-items: center; /* Align items vertically */
-    padding: 10px; /* Space inside the container */
-    gap: 10px; /* Adds spacing between flex items */
-    margin-bottom: 10px; /* Adds space below each entry */
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+    padding: 10px;
+    gap: 10px; 
+    margin-bottom: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
     background-color: #fff;
-    box-sizing: border-box; /* Includes padding in width calculations */
+    box-sizing: border-box;
     width: 100%;
 }
 

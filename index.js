@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const graduationRequirements = {
         "Math": 20, "Science": 20, "English": 40, "Social Studies": 30, "Health": 5, "Fine Art or World Language": 10, "Total": 220,
     };
-    const enteredClasses = []; // To track classes dynamically
+    const enteredClasses = [];
     
     const initializeSelect2 = (selector) => {
         $('#class-select').select2({placeholder: 'Search for a class', minimumInputLength: 3});
@@ -65,7 +65,6 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     });
 
-    // GPA Calculation Logic
     calculateGPAButton.addEventListener("click", () => {
         const classes = document.getElementById('class-list').querySelectorAll(".class-entry");
 
@@ -77,12 +76,10 @@ document.addEventListener("DOMContentLoaded", () => {
         let totalPoints = 0, totalCredits = 0;
 
         classes.forEach(entry => {
-            // Get values from data attributes
             const grade = entry.dataset.grade;
             const classType = entry.dataset.type;
             const term = entry.dataset.duration;
 
-            // Define multipliers for different class types
             const typeMultipliers = {
                 "Regular": 1.0,
                 "Honors": 1.25,
@@ -90,7 +87,6 @@ document.addEventListener("DOMContentLoaded", () => {
                 "Dual Enrollment": 1.25
             };
 
-            // Define base grade points
             const baseGradePoints = {
                 "A": 4.0,
                 "B": 3.0,
@@ -99,7 +95,6 @@ document.addEventListener("DOMContentLoaded", () => {
                 "F": 0.0
             };
 
-            // Define credits based on term
             const termCredits = {
                 "Quarter": 2.5,
                 "Semester": 5,
@@ -133,11 +128,9 @@ document.addEventListener("DOMContentLoaded", () => {
         const requirementList = document.getElementById('requirement-list');
         requirementList.innerHTML = '';
     
-        // Reset fulfilled requirements
         const fulfilled = { ...graduationRequirements };
         for (const subject in fulfilled) fulfilled[subject] = 0;
     
-        // Get all class entries
         const classes = document.getElementById('class-list').querySelectorAll('.class-entry');
         
         classes.forEach(classEntry => {
@@ -146,23 +139,18 @@ document.addEventListener("DOMContentLoaded", () => {
                 const duration = classData.duration;
                 const subject = classData.subject;
     
-                // Calculate credits for this class
                 const credits = duration === 'Year' ? 10 : 
                               duration === 'Semester' ? 5 : 
                               duration === 'Quarter' ? 2.5 : 0;
     
-                // Always add to total credits
                 fulfilled.Total += credits;
     
-
-            // Check for Fine Art/World Language requirement
             if (subject === 'Fine Art' || subject === 'World Language') {
                 fulfilled['Fine Art or World Language'] += credits;
             }
             else if (subject === 'Social Studies') {
                 fulfilled['Social Studies'] += credits;
             }
-            // Add to specific subject if it exists
             else if (subject in fulfilled) {
                 fulfilled[subject] += credits;
             }
@@ -171,7 +159,6 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     });
     
-        // Display results
         for (const subject in graduationRequirements) {
             const required = graduationRequirements[subject];
             const earned = fulfilled[subject];
@@ -179,7 +166,6 @@ document.addEventListener("DOMContentLoaded", () => {
             
             const percentage = (earned / required) * 100;
             
-            // Special display for combined requirements
             let displayText = subject;
             
             item.innerHTML = `
