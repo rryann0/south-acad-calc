@@ -1,0 +1,1916 @@
+[
+	{
+		"name": "AP Biology",
+		"subject": "Science",
+		"type": "AP",
+		"duration": "Semester"
+	},
+	{
+		"name": "AP Biology",
+		"subject": "Science",
+		"type": "AP",
+		"duration": "Year"
+	},
+	{
+		"name": "AP Calculus AB",
+		"subject": "Math",
+		"type": "AP",
+		"duration": "Semester"
+	},
+	{
+		"name": "AP Calculus AB",
+		"subject": "Math",
+		"type": "AP",
+		"duration": "Year"
+	},
+	{
+		"name": "AP Calculus BC",
+		"subject": "Math",
+		"type": "AP",
+		"duration": "Semester"
+	},
+	{
+		"name": "AP Calculus BC",
+		"subject": "Math",
+		"type": "AP",
+		"duration": "Year"
+	},
+	{
+		"name": "AP Chemistry",
+		"subject": "Science",
+		"type": "AP",
+		"duration": "Semester"
+	},
+	{
+		"name": "AP Chemistry",
+		"subject": "Science",
+		"type": "AP",
+		"duration": "Year"
+	},
+	{
+		"name": "AP Computer Science A",
+		"subject": "Math",
+		"type": "Regular",
+		"duration": "Semester"
+	},
+	{
+		"name": "AP Computer Science A",
+		"subject": "Math",
+		"type": "Regular",
+		"duration": "Year"
+	},
+	{
+		"name": "AP Computer Science Principles",
+		"subject": "Elective",
+		"type": "AP",
+		"duration": "Semester"
+	},
+	{
+		"name": "AP Computer Science Principles",
+		"subject": "Elective",
+		"type": "AP",
+		"duration": "Year"
+	},
+	{
+		"name": "AP Economics",
+		"subject": "Social Studies",
+		"type": "AP",
+		"duration": "Semester",
+		"credits": 5
+	},
+	{
+		"name": "AP Economics",
+		"subject": "Social Studies",
+		"type": "AP",
+		"duration": "Year",
+		"credits": 5
+	},
+	{
+		"name": "AP English Language & Composition",
+		"subject": "English",
+		"type": "AP",
+		"duration": "Semester"
+	},
+	{
+		"name": "AP English Language & Composition",
+		"subject": "English",
+		"type": "AP",
+		"duration": "Year"
+	},
+	{
+		"name": "AP English Literature & Composition",
+		"subject": "English",
+		"type": "AP",
+		"duration": "Semester"
+	},
+	{
+		"name": "AP English Literature & Composition",
+		"subject": "English",
+		"type": "AP",
+		"duration": "Year"
+	},
+	{
+		"name": "AP Environmental Science",
+		"subject": "Science",
+		"type": "AP",
+		"duration": "Semester"
+	},
+	{
+		"name": "AP Environmental Science",
+		"subject": "Science",
+		"type": "AP",
+		"duration": "Year"
+	},
+	{
+		"name": "AP French Language & Culture",
+		"subject": "World Language",
+		"type": "AP",
+		"duration": "Semester"
+	},
+	{
+		"name": "AP French Language & Culture",
+		"subject": "World Language",
+		"type": "AP",
+		"duration": "Year"
+	},
+	{
+		"name": "AP Human Geography",
+		"subject": "Social Studies",
+		"type": "AP",
+		"duration": "Semester"
+	},
+	{
+		"name": "AP Human Geography",
+		"subject": "Social Studies",
+		"type": "AP",
+		"duration": "Year"
+	},
+	{
+		"name": "AP Japanese Language",
+		"subject": "World Language",
+		"type": "AP",
+		"duration": "Semester"
+	},
+	{
+		"name": "AP Japanese Language",
+		"subject": "World Language",
+		"type": "AP",
+		"duration": "Year"
+	},
+	{
+		"name": "AP Music Theory",
+		"subject": "Fine Art",
+		"type": "AP",
+		"duration": "Semester"
+	},
+	{
+		"name": "AP Music Theory",
+		"subject": "Fine Art",
+		"type": "AP",
+		"duration": "Year"
+	},
+	{
+		"name": "AP Physics 1",
+		"subject": "Science",
+		"type": "AP",
+		"duration": "Semester"
+	},
+	{
+		"name": "AP Physics 1",
+		"subject": "Science",
+		"type": "AP",
+		"duration": "Year"
+	},
+	{
+		"name": "AP Physics C",
+		"subject": "Science",
+		"type": "AP",
+		"duration": "Semester"
+	},
+	{
+		"name": "AP Physics C",
+		"subject": "Science",
+		"type": "AP",
+		"duration": "Year"
+	},
+	{
+		"name": "AP Psychology",
+		"subject": "Social Studies",
+		"type": "AP",
+		"duration": "Semester"
+	},
+	{
+		"name": "AP Psychology",
+		"subject": "Social Studies",
+		"type": "AP",
+		"duration": "Year"
+	},
+	{
+		"name": "AP Spanish Language",
+		"subject": "World Language",
+		"type": "AP",
+		"duration": "Semester"
+	},
+	{
+		"name": "AP Spanish Language",
+		"subject": "World Language",
+		"type": "AP",
+		"duration": "Year"
+	},
+	{
+		"name": "AP Statistics",
+		"subject": "Math",
+		"type": "AP",
+		"duration": "Semester"
+	},
+	{
+		"name": "AP Statistics",
+		"subject": "Math",
+		"type": "AP",
+		"duration": "Year"
+	},
+	{
+		"name": "AP Studio Art",
+		"subject": "Fine Art",
+		"type": "AP",
+		"duration": "Semester"
+	},
+	{
+		"name": "AP Studio Art",
+		"subject": "Fine Art",
+		"type": "AP",
+		"duration": "Year"
+	},
+	{
+		"name": "AP US Government and Politics",
+		"subject": "Social Studies",
+		"type": "AP",
+		"duration": "Semester",
+		"credits": 5
+	},
+	{
+		"name": "AP US Government and Politics",
+		"subject": "Social Studies",
+		"type": "AP",
+		"duration": "Year",
+		"credits": 5
+	},
+	{
+		"name": "AP US History",
+		"subject": "Social Studies",
+		"type": "AP",
+		"duration": "Semester"
+	},
+	{
+		"name": "AP US History",
+		"subject": "Social Studies",
+		"type": "AP",
+		"duration": "Year"
+	},
+	{
+		"name": "AP World History",
+		"subject": "Social Studies",
+		"type": "AP",
+		"duration": "Semester"
+	},
+	{
+		"name": "AP World History",
+		"subject": "Social Studies",
+		"type": "AP",
+		"duration": "Year"
+	},
+	{
+		"name": "Academic Decathlon",
+		"subject": "Elective",
+		"type": "Regular",
+		"duration": "Semester"
+	},
+	{
+		"name": "Academic Decathlon",
+		"subject": "Elective",
+		"type": "Regular",
+		"duration": "Year"
+	},
+	{
+		"name": "Advanced Band",
+		"subject": "Fine Art",
+		"type": "Regular",
+		"duration": "Semester"
+	},
+	{
+		"name": "Advanced Band",
+		"subject": "Fine Art",
+		"type": "Regular",
+		"duration": "Year"
+	},
+	{
+		"name": "Advanced Ceramics",
+		"subject": "Fine Art",
+		"type": "Regular",
+		"duration": "Semester"
+	},
+	{
+		"name": "Advanced Ceramics",
+		"subject": "Fine Art",
+		"type": "Regular",
+		"duration": "Year"
+	},
+	{
+		"name": "Advanced Choir (Southland Singers)",
+		"subject": "Fine Art",
+		"type": "Regular",
+		"duration": "Semester"
+	},
+	{
+		"name": "Advanced Choir (Southland Singers)",
+		"subject": "Fine Art",
+		"type": "Regular",
+		"duration": "Year"
+	},
+	{
+		"name": "Advanced Dance",
+		"subject": "Fine Art",
+		"type": "Regular",
+		"duration": "Semester"
+	},
+	{
+		"name": "Advanced Dance",
+		"subject": "Fine Art",
+		"type": "Regular",
+		"duration": "Year"
+	},
+	{
+		"name": "Advanced English Workshop",
+		"subject": "Elective",
+		"type": "Regular",
+		"duration": "Semester"
+	},
+	{
+		"name": "Advanced English Workshop",
+		"subject": "Elective",
+		"type": "Regular",
+		"duration": "Year"
+	},
+	{
+		"name": "Advanced Journalism",
+		"subject": "Elective",
+		"type": "Regular",
+		"duration": "Semester"
+	},
+	{
+		"name": "Advanced Journalism",
+		"subject": "Elective",
+		"type": "Regular",
+		"duration": "Year"
+	},
+	{
+		"name": "Advanced Theatre Arts",
+		"subject": "Fine Art",
+		"type": "Regular",
+		"duration": "Semester"
+	},
+	{
+		"name": "Advanced Theatre Arts",
+		"subject": "Fine Art",
+		"type": "Regular",
+		"duration": "Year"
+	},
+	{
+		"name": "Aerospace Engineering Honors",
+		"subject": "Elective",
+		"type": "Honors",
+		"duration": "Semester"
+	},
+	{
+		"name": "Aerospace Engineering Honors",
+		"subject": "Elective",
+		"type": "Honors",
+		"duration": "Year"
+	},
+	{
+		"name": "Algebra 1",
+		"subject": "Math",
+		"type": "Regular",
+		"duration": "Semester"
+	},
+	{
+		"name": "Algebra 1",
+		"subject": "Math",
+		"type": "Regular",
+		"duration": "Year"
+	},
+	{
+		"name": "Algebra 2",
+		"subject": "Math",
+		"type": "Regular",
+		"duration": "Semester"
+	},
+	{
+		"name": "Algebra 2",
+		"subject": "Math",
+		"type": "Regular",
+		"duration": "Year"
+	},
+	{
+		"name": "Algebra 2 Honors",
+		"subject": "Math",
+		"type": "Honors",
+		"duration": "Semester"
+	},
+	{
+		"name": "Algebra 2 Honors",
+		"subject": "Math",
+		"type": "Honors",
+		"duration": "Year"
+	},
+	{
+		"name": "American Sign Language 1",
+		"subject": "World Language",
+		"type": "Dual Enrollment (Partnership)",
+		"duration": "Semester"
+	},
+	{
+		"name": "American Sign Language 1",
+		"subject": "World Language",
+		"type": "Dual Enrollment (Partnership)",
+		"duration": "Year"
+	},
+	{
+		"name": "American Sign Language 2",
+		"subject": "World Language",
+		"type": "Dual Enrollment (Partnership)",
+		"duration": "Semester"
+	},
+	{
+		"name": "American Sign Language 2",
+		"subject": "World Language",
+		"type": "Dual Enrollment (Partnership)",
+		"duration": "Year"
+	},
+	{
+		"name": "Anatomy & Physiology",
+		"subject": "Science",
+		"type": "Regular",
+		"duration": "Semester"
+	},
+	{
+		"name": "Anatomy & Physiology",
+		"subject": "Science",
+		"type": "Regular",
+		"duration": "Year"
+	},
+	{
+		"name": "Art 1",
+		"subject": "Fine Art",
+		"type": "Regular",
+		"duration": "Semester"
+	},
+	{
+		"name": "Art 1",
+		"subject": "Fine Art",
+		"type": "Regular",
+		"duration": "Year"
+	},
+	{
+		"name": "Art 2",
+		"subject": "Fine Art",
+		"type": "Regular",
+		"duration": "Semester"
+	},
+	{
+		"name": "Art 2",
+		"subject": "Fine Art",
+		"type": "Regular",
+		"duration": "Year"
+	},
+	{
+		"name": "Art 3",
+		"subject": "Fine Art",
+		"type": "Regular",
+		"duration": "Semester"
+	},
+	{
+		"name": "Art 3",
+		"subject": "Fine Art",
+		"type": "Regular",
+		"duration": "Year"
+	},
+	{
+		"name": "Baseball",
+		"subject": "PE/Sport",
+		"type": "Regular",
+		"duration": "Quarter"
+	},
+	{
+		"name": "Baseball",
+		"subject": "PE/Sport",
+		"type": "Regular",
+		"duration": "Year"
+	},
+	{
+		"name": "Basketball",
+		"subject": "PE/Sport",
+		"type": "Regular",
+		"duration": "Quarter"
+	},
+	{
+		"name": "Basketball",
+		"subject": "PE/Sport",
+		"type": "Regular",
+		"duration": "Year"
+	},
+	{
+		"name": "Beginning Ceramics",
+		"subject": "Fine Art",
+		"type": "Regular",
+		"duration": "Semester"
+	},
+	{
+		"name": "Beginning Ceramics",
+		"subject": "Fine Art",
+		"type": "Regular",
+		"duration": "Year"
+	},
+	{
+		"name": "Beginning Choir (Spartan Choir)",
+		"subject": "Fine Art",
+		"type": "Regular",
+		"duration": "Semester"
+	},
+	{
+		"name": "Beginning Choir (Spartan Choir)",
+		"subject": "Fine Art",
+		"type": "Regular",
+		"duration": "Year"
+	},
+	{
+		"name": "Beginning Dance",
+		"subject": "PE/Sport",
+		"type": "Regular",
+		"duration": "Quarter"
+	},
+	{
+		"name": "Beginning Dance",
+		"subject": "PE/Sport",
+		"type": "Regular",
+		"duration": "Year"
+	},
+	{
+		"name": "Beginning English Workshop",
+		"subject": "Elective",
+		"type": "Regular",
+		"duration": "Semester"
+	},
+	{
+		"name": "Beginning English Workshop",
+		"subject": "Elective",
+		"type": "Regular",
+		"duration": "Year"
+	},
+	{
+		"name": "Beginning Instruments",
+		"subject": "Fine Art",
+		"type": "Regular",
+		"duration": "Semester"
+	},
+	{
+		"name": "Beginning Instruments",
+		"subject": "Fine Art",
+		"type": "Regular",
+		"duration": "Year"
+	},
+	{
+		"name": "Beginning Theatre Arts",
+		"subject": "Fine Art",
+		"type": "Regular",
+		"duration": "Semester"
+	},
+	{
+		"name": "Beginning Theatre Arts",
+		"subject": "Fine Art",
+		"type": "Regular",
+		"duration": "Year"
+	},
+	{
+		"name": "Biology: The Living Earth",
+		"subject": "Science",
+		"type": "Regular",
+		"duration": "Semester"
+	},
+	{
+		"name": "Biology: The Living Earth",
+		"subject": "Science",
+		"type": "Regular",
+		"duration": "Year"
+	},
+	{
+		"name": "Calculus",
+		"subject": "Math",
+		"type": "Regular",
+		"duration": "Semester"
+	},
+	{
+		"name": "Calculus",
+		"subject": "Math",
+		"type": "Regular",
+		"duration": "Year"
+	},
+	{
+		"name": "Chemistry of the Earth",
+		"subject": "Science",
+		"type": "Regular",
+		"duration": "Semester"
+	},
+	{
+		"name": "Chemistry of the Earth",
+		"subject": "Science",
+		"type": "Regular",
+		"duration": "Year"
+	},
+	{
+		"name": "Commercial Photography 1",
+		"subject": "Fine Art",
+		"type": "Regular",
+		"duration": "Semester"
+	},
+	{
+		"name": "Commercial Photography 1",
+		"subject": "Fine Art",
+		"type": "Regular",
+		"duration": "Year"
+	},
+	{
+		"name": "Commercial Photography 2",
+		"subject": "Fine Art",
+		"type": "Regular",
+		"duration": "Semester"
+	},
+	{
+		"name": "Commercial Photography 2",
+		"subject": "Fine Art",
+		"type": "Regular",
+		"duration": "Year"
+	},
+	{
+		"name": "Creative Writing 1",
+		"subject": "Elective",
+		"type": "Regular",
+		"duration": "Semester"
+	},
+	{
+		"name": "Creative Writing 1",
+		"subject": "Elective",
+		"type": "Regular",
+		"duration": "Year"
+	},
+	{
+		"name": "Creative Writing 2",
+		"subject": "Elective",
+		"type": "Regular",
+		"duration": "Semester"
+	},
+	{
+		"name": "Creative Writing 2",
+		"subject": "Elective",
+		"type": "Regular",
+		"duration": "Year"
+	},
+	{
+		"name": "Cross Country",
+		"subject": "PE/Sport",
+		"type": "Regular",
+		"duration": "Quarter"
+	},
+	{
+		"name": "Cross Country",
+		"subject": "PE/Sport",
+		"type": "Regular",
+		"duration": "Year"
+	},
+	{
+		"name": "Cybersecurity Honors",
+		"subject": "Elective",
+		"type": "Honors",
+		"duration": "Semester"
+	},
+	{
+		"name": "Cybersecurity Honors",
+		"subject": "Elective",
+		"type": "Honors",
+		"duration": "Year"
+	},
+	{
+		"name": "Drill Team",
+		"subject": "PE/Sport",
+		"type": "Regular",
+		"duration": "Quarter"
+	},
+	{
+		"name": "Drill Team",
+		"subject": "PE/Sport",
+		"type": "Regular",
+		"duration": "Year"
+	},
+	{
+		"name": "EL Intervention",
+		"subject": "Elective",
+		"type": "Regular",
+		"duration": "Semester"
+	},
+	{
+		"name": "EL Intervention",
+		"subject": "Elective",
+		"type": "Regular",
+		"duration": "Year"
+	},
+	{
+		"name": "Earth and Space Science",
+		"subject": "Science",
+		"type": "Regular",
+		"duration": "Semester"
+	},
+	{
+		"name": "Earth and Space Science",
+		"subject": "Science",
+		"type": "Regular",
+		"duration": "Year"
+	},
+	{
+		"name": "Economics",
+		"subject": "Social Studies",
+		"type": "Regular",
+		"duration": "Semester",
+		"credits": 5
+	},
+	{
+		"name": "Economics",
+		"subject": "Social Studies",
+		"type": "Regular",
+		"duration": "Year",
+		"credits": 5
+	},
+	{
+		"name": "Elementary Chinese 1",
+		"subject": "World Language",
+		"type": "Dual Enrollment (Partnership)",
+		"duration": "Semester"
+	},
+	{
+		"name": "Elementary Chinese 1",
+		"subject": "World Language",
+		"type": "Dual Enrollment (Partnership)",
+		"duration": "Year"
+	},
+	{
+		"name": "Elementary Chinese 2",
+		"subject": "World Language",
+		"type": "Dual Enrollment (Partnership)",
+		"duration": "Semester"
+	},
+	{
+		"name": "Elementary Chinese 2",
+		"subject": "World Language",
+		"type": "Dual Enrollment (Partnership)",
+		"duration": "Year"
+	},
+	{
+		"name": "Engineering Design/Development Honors",
+		"subject": "Elective",
+		"type": "Honors",
+		"duration": "Semester"
+	},
+	{
+		"name": "Engineering Design/Development Honors",
+		"subject": "Elective",
+		"type": "Honors",
+		"duration": "Year"
+	},
+	{
+		"name": "English 1",
+		"subject": "English",
+		"type": "Regular",
+		"duration": "Semester"
+	},
+	{
+		"name": "English 1",
+		"subject": "English",
+		"type": "Regular",
+		"duration": "Year"
+	},
+	{
+		"name": "English 1 Honors",
+		"subject": "English",
+		"type": "Honors",
+		"duration": "Semester"
+	},
+	{
+		"name": "English 1 Honors",
+		"subject": "English",
+		"type": "Honors",
+		"duration": "Year"
+	},
+	{
+		"name": "English 1A (El Camino)",
+		"subject": "English",
+		"type": "Dual Enrollment (Partnership)",
+		"duration": "Semester"
+	},
+	{
+		"name": "English 1A (El Camino)",
+		"subject": "English",
+		"type": "Dual Enrollment (Partnership)",
+		"duration": "Year"
+	},
+	{
+		"name": "English 1C (El Camino)",
+		"subject": "English",
+		"type": "Dual Enrollment (Partnership)",
+		"duration": "Semester"
+	},
+	{
+		"name": "English 1C (El Camino)",
+		"subject": "English",
+		"type": "Dual Enrollment (Partnership)",
+		"duration": "Year"
+	},
+	{
+		"name": "English 2 Ethnic Literature",
+		"subject": "English",
+		"type": "Regular",
+		"duration": "Semester"
+	},
+	{
+		"name": "English 2 Ethnic Literature",
+		"subject": "English",
+		"type": "Regular",
+		"duration": "Year"
+	},
+	{
+		"name": "English 2 Ethnic Literature Honors",
+		"subject": "English",
+		"type": "Honors",
+		"duration": "Semester"
+	},
+	{
+		"name": "English 2 Ethnic Literature Honors",
+		"subject": "English",
+		"type": "Honors",
+		"duration": "Year"
+	},
+	{
+		"name": "English 2 World Literature",
+		"subject": "English",
+		"type": "Regular",
+		"duration": "Semester"
+	},
+	{
+		"name": "English 2 World Literature",
+		"subject": "English",
+		"type": "Regular",
+		"duration": "Year"
+	},
+	{
+		"name": "English 2 World Literature Honors",
+		"subject": "English",
+		"type": "Honors",
+		"duration": "Semester"
+	},
+	{
+		"name": "English 2 World Literature Honors",
+		"subject": "English",
+		"type": "Honors",
+		"duration": "Year"
+	},
+	{
+		"name": "English 3",
+		"subject": "English",
+		"type": "Regular",
+		"duration": "Semester"
+	},
+	{
+		"name": "English 3",
+		"subject": "English",
+		"type": "Regular",
+		"duration": "Year"
+	},
+	{
+		"name": "English 4",
+		"subject": "English",
+		"type": "Regular",
+		"duration": "Semester"
+	},
+	{
+		"name": "English 4",
+		"subject": "English",
+		"type": "Regular",
+		"duration": "Year"
+	},
+	{
+		"name": "Financial Algebra",
+		"subject": "Math",
+		"type": "Regular",
+		"duration": "Semester"
+	},
+	{
+		"name": "Financial Algebra",
+		"subject": "Math",
+		"type": "Regular",
+		"duration": "Year"
+	},
+	{
+		"name": "Fine Arts Seminar",
+		"subject": "Fine Art",
+		"type": "Regular",
+		"duration": "Semester"
+	},
+	{
+		"name": "Fine Arts Seminar",
+		"subject": "Fine Art",
+		"type": "Regular",
+		"duration": "Year"
+	},
+	{
+		"name": "Foods & Nutrition 1",
+		"subject": "Elective",
+		"type": "Regular",
+		"duration": "Semester"
+	},
+	{
+		"name": "Foods & Nutrition 1",
+		"subject": "Elective",
+		"type": "Regular",
+		"duration": "Year"
+	},
+	{
+		"name": "Foods & Nutrition 2",
+		"subject": "Elective",
+		"type": "Regular",
+		"duration": "Semester"
+	},
+	{
+		"name": "Foods & Nutrition 2",
+		"subject": "Elective",
+		"type": "Regular",
+		"duration": "Year"
+	},
+	{
+		"name": "Football",
+		"subject": "PE/Sport",
+		"type": "Regular",
+		"duration": "Quarter"
+	},
+	{
+		"name": "Football",
+		"subject": "PE/Sport",
+		"type": "Regular",
+		"duration": "Year"
+	},
+	{
+		"name": "French 1",
+		"subject": "World Language",
+		"type": "Regular",
+		"duration": "Semester"
+	},
+	{
+		"name": "French 1",
+		"subject": "World Language",
+		"type": "Regular",
+		"duration": "Year"
+	},
+	{
+		"name": "French 2",
+		"subject": "World Language",
+		"type": "Regular",
+		"duration": "Semester"
+	},
+	{
+		"name": "French 2",
+		"subject": "World Language",
+		"type": "Regular",
+		"duration": "Year"
+	},
+	{
+		"name": "French 3",
+		"subject": "World Language",
+		"type": "Regular",
+		"duration": "Semester"
+	},
+	{
+		"name": "French 3",
+		"subject": "World Language",
+		"type": "Regular",
+		"duration": "Year"
+	},
+	{
+		"name": "French 3 Honors",
+		"subject": "World Language",
+		"type": "Honors",
+		"duration": "Semester"
+	},
+	{
+		"name": "French 3 Honors",
+		"subject": "World Language",
+		"type": "Honors",
+		"duration": "Year"
+	},
+	{
+		"name": "French 4",
+		"subject": "World Language",
+		"type": "Regular",
+		"duration": "Semester"
+	},
+	{
+		"name": "French 4",
+		"subject": "World Language",
+		"type": "Regular",
+		"duration": "Year"
+	},
+	{
+		"name": "Geometry",
+		"subject": "Math",
+		"type": "Regular",
+		"duration": "Semester"
+	},
+	{
+		"name": "Geometry",
+		"subject": "Math",
+		"type": "Regular",
+		"duration": "Year"
+	},
+	{
+		"name": "Geometry Honors",
+		"subject": "Math",
+		"type": "Honors",
+		"duration": "Semester"
+	},
+	{
+		"name": "Geometry Honors",
+		"subject": "Math",
+		"type": "Honors",
+		"duration": "Year"
+	},
+	{
+		"name": "Girls' Flag Football",
+		"subject": "PE/Sport",
+		"type": "Regular",
+		"duration": "Quarter"
+	},
+	{
+		"name": "Girls' Flag Football",
+		"subject": "PE/Sport",
+		"type": "Regular",
+		"duration": "Year"
+	},
+	{
+		"name": "Golf",
+		"subject": "PE/Sport",
+		"type": "Regular",
+		"duration": "Quarter"
+	},
+	{
+		"name": "Golf",
+		"subject": "PE/Sport",
+		"type": "Regular",
+		"duration": "Year"
+	},
+	{
+		"name": "Health",
+		"subject": "Health",
+		"type": "Regular",
+		"duration": "Semester",
+		"credits": 5
+	},
+	{
+		"name": "Health",
+		"subject": "Health",
+		"type": "Regular",
+		"duration": "Year",
+		"credits": 5
+	},
+	{
+		"name": "Honors Biology: The Living Earth",
+		"subject": "Science",
+		"type": "Honors",
+		"duration": "Semester"
+	},
+	{
+		"name": "Honors Biology: The Living Earth",
+		"subject": "Science",
+		"type": "Honors",
+		"duration": "Year"
+	},
+	{
+		"name": "Honors Chemistry of the Earth",
+		"subject": "Science",
+		"type": "Honors",
+		"duration": "Semester"
+	},
+	{
+		"name": "Honors Chemistry of the Earth",
+		"subject": "Science",
+		"type": "Honors",
+		"duration": "Year"
+	},
+	{
+		"name": "Intermediate Chinese 1",
+		"subject": "World Language",
+		"type": "Dual Enrollment (Partnership)",
+		"duration": "Semester"
+	},
+	{
+		"name": "Intermediate Chinese 1",
+		"subject": "World Language",
+		"type": "Dual Enrollment (Partnership)",
+		"duration": "Year"
+	},
+	{
+		"name": "Intermediate Conversational Chinese",
+		"subject": "World Language",
+		"type": "Dual Enrollment (Partnership)",
+		"duration": "Semester"
+	},
+	{
+		"name": "Intermediate Conversational Chinese",
+		"subject": "World Language",
+		"type": "Dual Enrollment (Partnership)",
+		"duration": "Year"
+	},
+	{
+		"name": "Intermediate Dance",
+		"subject": "PE/Sport",
+		"type": "Regular",
+		"duration": "Quarter"
+	},
+	{
+		"name": "Intermediate Dance",
+		"subject": "PE/Sport",
+		"type": "Regular",
+		"duration": "Year"
+	},
+	{
+		"name": "Intermediate English Workshop",
+		"subject": "Elective",
+		"type": "Regular",
+		"duration": "Semester"
+	},
+	{
+		"name": "Intermediate English Workshop",
+		"subject": "Elective",
+		"type": "Regular",
+		"duration": "Year"
+	},
+	{
+		"name": "Intermediate Theatre Arts",
+		"subject": "Fine Art",
+		"type": "Regular",
+		"duration": "Semester"
+	},
+	{
+		"name": "Intermediate Theatre Arts",
+		"subject": "Fine Art",
+		"type": "Regular",
+		"duration": "Year"
+	},
+	{
+		"name": "Intro to Chinese Language & Culture",
+		"subject": "World Language",
+		"type": "Dual Enrollment (Partnership)",
+		"duration": "Semester"
+	},
+	{
+		"name": "Intro to Chinese Language & Culture",
+		"subject": "World Language",
+		"type": "Dual Enrollment (Partnership)",
+		"duration": "Year"
+	},
+	{
+		"name": "Intro to Engineering Design",
+		"subject": "Elective",
+		"type": "Regular",
+		"duration": "Semester"
+	},
+	{
+		"name": "Intro to Engineering Design",
+		"subject": "Elective",
+		"type": "Regular",
+		"duration": "Year"
+	},
+	{
+		"name": "Intro to Ethnic Studies",
+		"subject": "Social Studies",
+		"type": "Regular",
+		"duration": "Semester",
+		"credits": 5
+	},
+	{
+		"name": "Intro to Ethnic Studies",
+		"subject": "Social Studies",
+		"type": "Regular",
+		"duration": "Year",
+		"credits": 5
+	},
+	{
+		"name": "Introduction to Data Science",
+		"subject": "Math",
+		"type": "Regular",
+		"duration": "Semester"
+	},
+	{
+		"name": "Introduction to Data Science",
+		"subject": "Math",
+		"type": "Regular",
+		"duration": "Year"
+	},
+	{
+		"name": "Japanese 1",
+		"subject": "World Language",
+		"type": "Regular",
+		"duration": "Semester"
+	},
+	{
+		"name": "Japanese 1",
+		"subject": "World Language",
+		"type": "Regular",
+		"duration": "Year"
+	},
+	{
+		"name": "Japanese 2",
+		"subject": "World Language",
+		"type": "Regular",
+		"duration": "Semester"
+	},
+	{
+		"name": "Japanese 2",
+		"subject": "World Language",
+		"type": "Regular",
+		"duration": "Year"
+	},
+	{
+		"name": "Japanese 3",
+		"subject": "World Language",
+		"type": "Regular",
+		"duration": "Semester"
+	},
+	{
+		"name": "Japanese 3",
+		"subject": "World Language",
+		"type": "Regular",
+		"duration": "Year"
+	},
+	{
+		"name": "Japanese 4 Honors",
+		"subject": "World Language",
+		"type": "Honors",
+		"duration": "Semester"
+	},
+	{
+		"name": "Japanese 4 Honors",
+		"subject": "World Language",
+		"type": "Honors",
+		"duration": "Year"
+	},
+	{
+		"name": "Jazz Band",
+		"subject": "Fine Art",
+		"type": "Regular",
+		"duration": "Semester"
+	},
+	{
+		"name": "Jazz Band",
+		"subject": "Fine Art",
+		"type": "Regular",
+		"duration": "Year"
+	},
+	{
+		"name": "Journalism 1",
+		"subject": "Elective",
+		"type": "Regular",
+		"duration": "Semester"
+	},
+	{
+		"name": "Journalism 1",
+		"subject": "Elective",
+		"type": "Regular",
+		"duration": "Year"
+	},
+	{
+		"name": "Junior ROTC 1",
+		"subject": "PE/Sport",
+		"type": "Regular",
+		"duration": "Quarter"
+	},
+	{
+		"name": "Junior ROTC 1",
+		"subject": "PE/Sport",
+		"type": "Regular",
+		"duration": "Year"
+	},
+	{
+		"name": "Korean 1",
+		"subject": "World Language",
+		"type": "Regular",
+		"duration": "Semester"
+	},
+	{
+		"name": "Korean 1",
+		"subject": "World Language",
+		"type": "Regular",
+		"duration": "Year"
+	},
+	{
+		"name": "Korean 2",
+		"subject": "World Language",
+		"type": "Regular",
+		"duration": "Semester"
+	},
+	{
+		"name": "Korean 2",
+		"subject": "World Language",
+		"type": "Regular",
+		"duration": "Year"
+	},
+	{
+		"name": "Korean 3 Honors",
+		"subject": "World Language",
+		"type": "Honors",
+		"duration": "Semester"
+	},
+	{
+		"name": "Korean 3 Honors",
+		"subject": "World Language",
+		"type": "Honors",
+		"duration": "Year"
+	},
+	{
+		"name": "Korean 4/5",
+		"subject": "World Language",
+		"type": "Regular",
+		"duration": "Semester"
+	},
+	{
+		"name": "Korean 4/5",
+		"subject": "World Language",
+		"type": "Regular",
+		"duration": "Year"
+	},
+	{
+		"name": "Korean 4/5 Honors",
+		"subject": "World Language",
+		"type": "Honors",
+		"duration": "Semester"
+	},
+	{
+		"name": "Korean 4/5 Honors",
+		"subject": "World Language",
+		"type": "Honors",
+		"duration": "Year"
+	},
+	{
+		"name": "Leadership/ASB (Class/Student Council)",
+		"subject": "Elective",
+		"type": "Regular",
+		"duration": "Semester"
+	},
+	{
+		"name": "Leadership/ASB (Class/Student Council)",
+		"subject": "Elective",
+		"type": "Regular",
+		"duration": "Year"
+	},
+	{
+		"name": "Marine Science",
+		"subject": "Science",
+		"type": "Regular",
+		"duration": "Semester"
+	},
+	{
+		"name": "Marine Science",
+		"subject": "Science",
+		"type": "Regular",
+		"duration": "Year"
+	},
+	{
+		"name": "Multivariable Calculus",
+		"subject": "Math",
+		"type": "Regular",
+		"duration": "Semester"
+	},
+	{
+		"name": "Multivariable Calculus",
+		"subject": "Math",
+		"type": "Regular",
+		"duration": "Year"
+	},
+	{
+		"name": "PE 10-12",
+		"subject": "PE/Sport",
+		"type": "Regular",
+		"duration": "Quarter"
+	},
+	{
+		"name": "PE 10-12",
+		"subject": "PE/Sport",
+		"type": "Regular",
+		"duration": "Year"
+	},
+	{
+		"name": "PE 9",
+		"subject": "PE/Sport",
+		"type": "Regular",
+		"duration": "Quarter"
+	},
+	{
+		"name": "PE 9",
+		"subject": "PE/Sport",
+		"type": "Regular",
+		"duration": "Year"
+	},
+	{
+		"name": "PE Band (Marching Band)",
+		"subject": "PE/Sport",
+		"type": "Regular",
+		"duration": "Semester",
+		"credits": 5
+	},
+	{
+		"name": "PE Band (Marching Band)",
+		"subject": "PE/Sport",
+		"type": "Regular",
+		"duration": "Year",
+		"credits": 5
+	},
+	{
+		"name": "Pep Squad (Cheer)",
+		"subject": "PE/Sport",
+		"type": "Regular",
+		"duration": "Quarter"
+	},
+	{
+		"name": "Pep Squad (Cheer)",
+		"subject": "PE/Sport",
+		"type": "Regular",
+		"duration": "Year"
+	},
+	{
+		"name": "Percussion Ensemble & Color Guard",
+		"subject": "Fine Art",
+		"type": "Regular",
+		"duration": "Semester",
+		"credits": 5
+	},
+	{
+		"name": "Percussion Ensemble & Color Guard",
+		"subject": "Fine Art",
+		"type": "Regular",
+		"duration": "Year",
+		"credits": 5
+	},
+	{
+		"name": "Physics of the Universe",
+		"subject": "Science",
+		"type": "Regular",
+		"duration": "Semester"
+	},
+	{
+		"name": "Physics of the Universe",
+		"subject": "Science",
+		"type": "Regular",
+		"duration": "Year"
+	},
+	{
+		"name": "Precalculus",
+		"subject": "Math",
+		"type": "Regular",
+		"duration": "Semester"
+	},
+	{
+		"name": "Precalculus",
+		"subject": "Math",
+		"type": "Regular",
+		"duration": "Year"
+	},
+	{
+		"name": "Precalculus Honors",
+		"subject": "Math",
+		"type": "Honors",
+		"duration": "Semester"
+	},
+	{
+		"name": "Precalculus Honors",
+		"subject": "Math",
+		"type": "Honors",
+		"duration": "Year"
+	},
+	{
+		"name": "Principles of Engineering",
+		"subject": "Elective",
+		"type": "Regular",
+		"duration": "Semester"
+	},
+	{
+		"name": "Principles of Engineering",
+		"subject": "Elective",
+		"type": "Regular",
+		"duration": "Year"
+	},
+	{
+		"name": "Psychology",
+		"subject": "Elective",
+		"type": "Regular",
+		"duration": "Semester"
+	},
+	{
+		"name": "Psychology",
+		"subject": "Elective",
+		"type": "Regular",
+		"duration": "Year"
+	},
+	{
+		"name": "Semesterbook Design and Publishing",
+		"subject": "Fine Art",
+		"type": "Regular",
+		"duration": "Semester"
+	},
+	{
+		"name": "Show Choir PE",
+		"subject": "PE/Sport",
+		"type": "Regular",
+		"duration": "Semester"
+	},
+	{
+		"name": "Show Choir PE",
+		"subject": "PE/Sport",
+		"type": "Regular",
+		"duration": "Year"
+	},
+	{
+		"name": "Soccer",
+		"subject": "PE/Sport",
+		"type": "Regular",
+		"duration": "Quarter"
+	},
+	{
+		"name": "Soccer",
+		"subject": "PE/Sport",
+		"type": "Regular",
+		"duration": "Year"
+	},
+	{
+		"name": "Softball",
+		"subject": "PE/Sport",
+		"type": "Regular",
+		"duration": "Quarter"
+	},
+	{
+		"name": "Softball",
+		"subject": "PE/Sport",
+		"type": "Regular",
+		"duration": "Year"
+	},
+	{
+		"name": "Spanish 1",
+		"subject": "World Language",
+		"type": "Regular",
+		"duration": "Semester"
+	},
+	{
+		"name": "Spanish 1",
+		"subject": "World Language",
+		"type": "Regular",
+		"duration": "Year"
+	},
+	{
+		"name": "Spanish 2",
+		"subject": "World Language",
+		"type": "Regular",
+		"duration": "Semester"
+	},
+	{
+		"name": "Spanish 2",
+		"subject": "World Language",
+		"type": "Regular",
+		"duration": "Year"
+	},
+	{
+		"name": "Spanish 3",
+		"subject": "World Language",
+		"type": "Regular",
+		"duration": "Semester"
+	},
+	{
+		"name": "Spanish 3",
+		"subject": "World Language",
+		"type": "Regular",
+		"duration": "Year"
+	},
+	{
+		"name": "Spanish 3 Honors",
+		"subject": "World Language",
+		"type": "Honors",
+		"duration": "Semester"
+	},
+	{
+		"name": "Spanish 3 Honors",
+		"subject": "World Language",
+		"type": "Honors",
+		"duration": "Year"
+	},
+	{
+		"name": "Spanish 4",
+		"subject": "World Language",
+		"type": "Regular",
+		"duration": "Semester"
+	},
+	{
+		"name": "Spanish 4",
+		"subject": "World Language",
+		"type": "Regular",
+		"duration": "Year"
+	},
+	{
+		"name": "Speech & Debate (Forensics)",
+		"subject": "Elective",
+		"type": "Regular",
+		"duration": "Semester"
+	},
+	{
+		"name": "Speech & Debate (Forensics)",
+		"subject": "Elective",
+		"type": "Regular",
+		"duration": "Year"
+	},
+	{
+		"name": "Sports Therapy",
+		"subject": "Elective",
+		"type": "Regular",
+		"duration": "Semester"
+	},
+	{
+		"name": "Sports Therapy",
+		"subject": "Elective",
+		"type": "Regular",
+		"duration": "Year"
+	},
+	{
+		"name": "Sports Therapy Practicum",
+		"subject": "Elective",
+		"type": "Regular",
+		"duration": "Semester"
+	},
+	{
+		"name": "Sports Therapy Practicum",
+		"subject": "Elective",
+		"type": "Regular",
+		"duration": "Year"
+	},
+	{
+		"name": "Surf",
+		"subject": "PE/Sport",
+		"type": "Regular",
+		"duration": "Quarter"
+	},
+	{
+		"name": "Surf",
+		"subject": "PE/Sport",
+		"type": "Regular",
+		"duration": "Year"
+	},
+	{
+		"name": "Swimming",
+		"subject": "PE/Sport",
+		"type": "Regular",
+		"duration": "Quarter"
+	},
+	{
+		"name": "Swimming",
+		"subject": "PE/Sport",
+		"type": "Regular",
+		"duration": "Year"
+	},
+	{
+		"name": "Tennis",
+		"subject": "PE/Sport",
+		"type": "Regular",
+		"duration": "Quarter"
+	},
+	{
+		"name": "Tennis",
+		"subject": "PE/Sport",
+		"type": "Regular",
+		"duration": "Year"
+	},
+	{
+		"name": "Track and Field",
+		"subject": "PE/Sport",
+		"type": "Regular",
+		"duration": "Quarter"
+	},
+	{
+		"name": "Track and Field",
+		"subject": "PE/Sport",
+		"type": "Regular",
+		"duration": "Year"
+	},
+	{
+		"name": "Trigonometry",
+		"subject": "Math",
+		"type": "Regular",
+		"duration": "Semester"
+	},
+	{
+		"name": "Trigonometry",
+		"subject": "Math",
+		"type": "Regular",
+		"duration": "Year"
+	},
+	{
+		"name": "US Government",
+		"subject": "Social Studies",
+		"type": "Regular",
+		"duration": "Semester",
+		"credits": 5
+	},
+	{
+		"name": "US Government",
+		"subject": "Social Studies",
+		"type": "Regular",
+		"duration": "Year",
+		"credits": 5
+	},
+	{
+		"name": "US History A/B",
+		"subject": "Social Studies",
+		"type": "Regular",
+		"duration": "Semester"
+	},
+	{
+		"name": "US History A/B",
+		"subject": "Social Studies",
+		"type": "Regular",
+		"duration": "Year"
+	},
+	{
+		"name": "Video Production 1",
+		"subject": "Fine Art",
+		"type": "Regular",
+		"duration": "Semester"
+	},
+	{
+		"name": "Video Production 1",
+		"subject": "Fine Art",
+		"type": "Regular",
+		"duration": "Year"
+	},
+	{
+		"name": "Video Production 2",
+		"subject": "Elective",
+		"type": "Regular",
+		"duration": "Semester"
+	},
+	{
+		"name": "Video Production 2",
+		"subject": "Elective",
+		"type": "Regular",
+		"duration": "Year"
+	},
+	{
+		"name": "Vocational Cabinet Making",
+		"subject": "Elective",
+		"type": "Regular",
+		"duration": "Semester"
+	},
+	{
+		"name": "Vocational Cabinet Making",
+		"subject": "Elective",
+		"type": "Regular",
+		"duration": "Year"
+	},
+	{
+		"name": "Volleyball",
+		"subject": "PE/Sport",
+		"type": "Regular",
+		"duration": "Quarter"
+	},
+	{
+		"name": "Volleyball",
+		"subject": "PE/Sport",
+		"type": "Regular",
+		"duration": "Year"
+	},
+	{
+		"name": "Water Polo",
+		"subject": "PE/Sport",
+		"type": "Regular",
+		"duration": "Quarter"
+	},
+	{
+		"name": "Water Polo",
+		"subject": "PE/Sport",
+		"type": "Regular",
+		"duration": "Year"
+	},
+	{
+		"name": "Web/Social Media",
+		"subject": "Fine Art",
+		"type": "Regular",
+		"duration": "Semester"
+	},
+	{
+		"name": "Web/Social Media",
+		"subject": "Fine Art",
+		"type": "Regular",
+		"duration": "Year"
+	},
+	{
+		"name": "Wind Ensemble",
+		"subject": "Fine Art",
+		"type": "Regular",
+		"duration": "Semester"
+	},
+	{
+		"name": "Wind Ensemble",
+		"subject": "Fine Art",
+		"type": "Regular",
+		"duration": "Year"
+	},
+	{
+		"name": "Wood Design 1",
+		"subject": "Elective",
+		"type": "Regular",
+		"duration": "Semester"
+	},
+	{
+		"name": "Wood Design 1",
+		"subject": "Elective",
+		"type": "Regular",
+		"duration": "Year"
+	},
+	{
+		"name": "Wood Design 2",
+		"subject": "Elective",
+		"type": "Regular",
+		"duration": "Semester"
+	},
+	{
+		"name": "Wood Design 2",
+		"subject": "Elective",
+		"type": "Regular",
+		"duration": "Year"
+	},
+	{
+		"name": "Work Experience",
+		"subject": "Elective",
+		"type": "Regular",
+		"duration": "Semester"
+	},
+	{
+		"name": "Work Experience",
+		"subject": "Elective",
+		"type": "Regular",
+		"duration": "Year"
+	},
+	{
+		"name": "World Geography A",
+		"subject": "Social Studies",
+		"type": "Regular",
+		"duration": "Semester",
+		"credits": 5
+	},
+	{
+		"name": "World Geography A",
+		"subject": "Social Studies",
+		"type": "Regular",
+		"duration": "Year",
+		"credits": 5
+	},
+	{
+		"name": "World History A/B",
+		"subject": "Social Studies",
+		"type": "Regular",
+		"duration": "Semester"
+	},
+	{
+		"name": "World History A/B",
+		"subject": "Social Studies",
+		"type": "Regular",
+		"duration": "Year"
+	},
+	{
+		"name": "Wrestling",
+		"subject": "PE/Sport",
+		"type": "Regular",
+		"duration": "Quarter"
+	},
+	{
+		"name": "Wrestling",
+		"subject": "PE/Sport",
+		"type": "Regular",
+		"duration": "Year"
+	},
+	{
+		"name": "Yearbook Design and Publishing",
+		"subject": "Fine Art",
+		"type": "Regular",
+		"duration": "Year"
+	}
+]

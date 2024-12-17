@@ -1,0 +1,205 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    background: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #4CAF50;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px 15px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #45a049;
+    border-radius: 5px;
+}
+
+#class-entries {
+    align-items: center;
+}
+
+#calculate-gpa {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#calculate-gpa:hover {
+    background-color: #45a049;
+}
+
+.class-entry {
+    display: flex; /* Makes justify-content and align-items work */
+    justify-content: space-between; /* Spread elements horizontally */
+    align-items: center; /* Align items vertically */
+    padding: 10px; /* Space inside the container */
+    gap: 10px; /* Adds spacing between flex items */
+    margin-bottom: 10px; /* Adds space below each entry */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    box-sizing: border-box; /* Includes padding in width calculations */
+    width: 100%;
+}
+
+.class-entry select {
+    flex: 1;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+section {
+    margin-bottom: 30px;
+    padding: 15px;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-top: 0;
+    color: #4CAF50;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input, textarea, button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 1em;
+}
+
+button {
+    background-color: #4CAF50;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.remove-class {
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100px;
+}
+
+.remove-class:hover {
+    background-color: #c0392b;
+}
+
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: white;
+    margin-top: 20px;
+}
+
+.class-select,
+.class-grade {
+    width: 200px;
+}
+
+.class-controls-container {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.class-controls {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.group-2 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    white-space: nowrap;
+}
+
+#add-class {
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#add-class:hover {
+    background-color: #45a049;
+}
+
+.select2-container {
+    min-width: 300px;  
+    max-width: 500px; 
+    flex: 1;           
+}
+
+.select2-selection__rendered {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
