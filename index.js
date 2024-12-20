@@ -3,7 +3,52 @@ document.addEventListener("DOMContentLoaded", () => {
     const calculateGPAButton = document.getElementById("calculate-gpa");
     const gpaResult = document.getElementById("gpa-result");
     const graduationRequirements = {
-        "Math": 20, "Science": 20, "English": 40, "Social Studies": 30, "Health": 5, "Fine Art or World Language": 10, "Total": 220,
+        "Social Studies": {
+            total: 30,
+            subcategories: {
+                "World History": {
+                    required: 10,
+                    fulfilled: 0,
+                    patterns: ["World History"]
+                },
+                "US History": {
+                    required: 10,
+                    fulfilled: 0,
+                    patterns: ["US History", "HIST 102"]
+                },
+                "US Government": {
+                    required: 5,
+                    fulfilled: 0,
+                    patterns: ["US Government", "AP US Government", "POLI 1"]
+                },
+                "Economics": {
+                    required: 5,
+                    fulfilled: 0,
+                    patterns: ["Economics", "AP Economics", "ECON 100"]
+                }
+            }
+        },
+        "Science": {
+            total: 20,
+            subcategories: {
+                "Biology": {
+                    required: 10,
+                    fulfilled: 0,
+                    patterns: ["Biology: The Living Earth", "Honors Biology", "AP Biology"]
+                },
+                "Physical Science": {
+                    required: 10,
+                    fulfilled: 0,
+                    patterns: ["Chemistry of the Earth", "Honors Chemistry", "AP Chemistry", "Earth and Space Science"]
+                }
+            }
+        },
+        "English": 40,
+        "Math": 20,
+        "Fine Art or World Language": 10,
+        "PE/Sport": 20,
+        "Health": 5,
+        "Total": 220
     };
     const enteredClasses = [];
     
@@ -74,8 +119,15 @@ document.addEventListener("DOMContentLoaded", () => {
         }
 
         let totalPoints = 0, totalCredits = 0;
+        let academicClasses = 0;
 
         classes.forEach(entry => {
+            const classData = JSON.parse(entry.dataset.originalData);
+            
+            if (classData.subject === "PE/Sport") {
+                return;
+            }
+
             const grade = entry.dataset.grade;
             const classType = entry.dataset.type;
             const term = entry.dataset.duration;
@@ -84,7 +136,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 "Regular": 1.0,
                 "Honors": 1.25,
                 "AP": 1.25,
-                "Dual Enrollment": 1.25
+                "Dual Enrollment (Partnership)": 1.25
             };
 
             const baseGradePoints = {
@@ -127,10 +179,24 @@ document.addEventListener("DOMContentLoaded", () => {
     document.getElementById('check-requirements').addEventListener('click', () => {
         const requirementList = document.getElementById('requirement-list');
         requirementList.innerHTML = '';
-    
-        const fulfilled = { ...graduationRequirements };
-        for (const subject in fulfilled) fulfilled[subject] = 0;
-    
+        
+        const fulfilled = {
+            "Social Studies": {
+                total: 0,
+                subcategories: JSON.parse(JSON.stringify(graduationRequirements["Social Studies"].subcategories))
+            },
+            "Science": {
+                total: 0,
+                subcategories: JSON.parse(JSON.stringify(graduationRequirements["Science"].subcategories))
+            }
+        };
+        
+        for (const subject in graduationRequirements) {
+            if (typeof graduationRequirements[subject] === 'number') {
+                fulfilled[subject] = 0;
+            }
+        }
+
         const classes = document.getElementById('class-list').querySelectorAll('.class-entry');
         
         classes.forEach(classEntry => {
@@ -138,44 +204,93 @@ document.addEventListener("DOMContentLoaded", () => {
                 const classData = JSON.parse(classEntry.dataset.originalData);
                 const duration = classData.duration;
                 const subject = classData.subject;
-    
+                const name = classData.name;
+                const grade = classEntry.dataset.grade;
+
+                if (grade === 'F') return;
+
                 const credits = duration === 'Year' ? 10 : 
                               duration === 'Semester' ? 5 : 
                               duration === 'Quarter' ? 2.5 : 0;
-    
+
                 fulfilled.Total += credits;
-    
-            if (subject === 'Fine Art' || subject === 'World Language') {
-                fulfilled['Fine Art or World Language'] += credits;
+
+                if (subject === 'Social Studies') {
+                    fulfilled["Social Studies"].total += credits;
+                    
+                    for (const subcat in fulfilled["Social Studies"].subcategories) {
+                        const patterns = fulfilled["Social Studies"].subcategories[subcat].patterns;
+                        if (patterns.some(pattern => name.includes(pattern))) {
+                            fulfilled["Social Studies"].subcategories[subcat].fulfilled += credits;
+                        }
+                    }
+                }
+                else if (subject === 'Science') {
+                    fulfilled["Science"].total += credits;
+                    
+                    for (const subcat in fulfilled["Science"].subcategories) {
+                        const patterns = fulfilled["Science"].subcategories[subcat].patterns;
+                        if (patterns.some(pattern => name.includes(pattern))) {
+                            fulfilled["Science"].subcategories[subcat].fulfilled += credits;
+                        }
+                    }
+                }
+                else if (subject === 'Fine Art' || subject === 'World Language') {
+                    fulfilled['Fine Art or World Language'] += credits;
+                }
+                else if (subject in fulfilled) {
+                    fulfilled[subject] += credits;
+                }
+            } catch (error) {
+                console.error('Error processing class entry:', error);
             }
-            else if (subject === 'Social Studies') {
-                fulfilled['Social Studies'] += credits;
-            }
-            else if (subject in fulfilled) {
-                fulfilled[subject] += credits;
-            }
-        } catch (error) {
-            console.error('Error processing class entry:', error);
-        }
-    });
-    
+        });
+
         for (const subject in graduationRequirements) {
-            const required = graduationRequirements[subject];
-            const earned = fulfilled[subject];
             const item = document.createElement('li');
             
-            const percentage = (earned / required) * 100;
-            
-            let displayText = subject;
-            
-            item.innerHTML = `
-                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
-                    <span>${displayText}: ${earned >= required ? 'Completed' : 'In Progress'} (${earned}/${required})</span>
-                    <div style="width: 200px; height: 20px; background-color: #eee; border-radius: 10px; overflow: hidden;">
-                        <div style="width: ${Math.min(percentage, 100)}%; height: 100%; background-color: ${earned >= required ? '#4CAF50' : '#FFA500'}; transition: width 0.3s ease;"></div>
+            if (subject === 'Social Studies' || subject === 'Science') {
+                const subjectData = graduationRequirements[subject];
+                const fulfilledData = fulfilled[subject];
+                
+                let subcategoryHTML = `
+                    <div class="requirement-category">
+                        <h3>${subject} (${fulfilledData.total}/${subjectData.total} total credits)</h3>
+                        <div class="subcategories">
+                `;
+                
+                for (const subcat in subjectData.subcategories) {
+                    const required = subjectData.subcategories[subcat].required;
+                    const earned = fulfilledData.subcategories[subcat].fulfilled;
+                    const percentage = (earned / required) * 100;
+                    
+                    subcategoryHTML += `
+                        <div class="subcategory">
+                            <span>${subcat}: ${earned >= required ? 'Completed' : 'In Progress'} (${earned}/${required})</span>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: ${Math.min(percentage, 100)}%; background-color: ${earned >= required ? '#4CAF50' : '#FFA500'};"></div>
+                            </div>
+                        </div>
+                    `;
+                }
+                
+                subcategoryHTML += '</div></div>';
+                item.innerHTML = subcategoryHTML;
+            } else {
+                const required = graduationRequirements[subject];
+                const earned = fulfilled[subject];
+                const percentage = (earned / required) * 100;
+                
+                item.innerHTML = `
+                    <div class="requirement-item">
+                        <span>${subject}: ${earned >= required ? 'Completed' : 'In Progress'} (${earned}/${required})</span>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: ${Math.min(percentage, 100)}%; background-color: ${earned >= required ? '#4CAF50' : '#FFA500'};"></div>
+                        </div>
                     </div>
-                </div>
-            `;
+                `;
+            }
+            
             requirementList.appendChild(item);
         }
     });

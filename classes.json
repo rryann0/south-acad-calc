@@ -424,30 +424,6 @@
 		"duration": "Year"
 	},
 	{
-		"name": "American Sign Language 1",
-		"subject": "World Language",
-		"type": "Dual Enrollment (Partnership)",
-		"duration": "Semester"
-	},
-	{
-		"name": "American Sign Language 1",
-		"subject": "World Language",
-		"type": "Dual Enrollment (Partnership)",
-		"duration": "Year"
-	},
-	{
-		"name": "American Sign Language 2",
-		"subject": "World Language",
-		"type": "Dual Enrollment (Partnership)",
-		"duration": "Semester"
-	},
-	{
-		"name": "American Sign Language 2",
-		"subject": "World Language",
-		"type": "Dual Enrollment (Partnership)",
-		"duration": "Year"
-	},
-	{
 		"name": "Anatomy & Physiology",
 		"subject": "Science",
 		"type": "Regular",
@@ -604,6 +580,18 @@
 		"duration": "Year"
 	},
 	{
+		"name": "CHIN 1 - Elementary Chinese I",
+		"subject": "World Language",
+		"type": "Dual Enrollment (Partnership)",
+		"duration": "Year"
+	},
+	{
+		"name": "CHIN 2 - Elementary Chinese II",
+		"subject": "World Language",
+		"type": "Dual Enrollment (Partnership)",
+		"duration": "Year"
+	},
+	{
 		"name": "Calculus",
 		"subject": "Math",
 		"type": "Regular",
@@ -709,6 +697,12 @@
 		"name": "Drill Team",
 		"subject": "PE/Sport",
 		"type": "Regular",
+		"duration": "Year"
+	},
+	{
+		"name": "ECON 100 - Fundamentals of Economics",
+		"subject": "Social Studies",
+		"type": "Dual Enrollment (Partnership)",
 		"duration": "Year"
 	},
 	{
@@ -750,30 +744,6 @@
 		"credits": 5
 	},
 	{
-		"name": "Elementary Chinese 1",
-		"subject": "World Language",
-		"type": "Dual Enrollment (Partnership)",
-		"duration": "Semester"
-	},
-	{
-		"name": "Elementary Chinese 1",
-		"subject": "World Language",
-		"type": "Dual Enrollment (Partnership)",
-		"duration": "Year"
-	},
-	{
-		"name": "Elementary Chinese 2",
-		"subject": "World Language",
-		"type": "Dual Enrollment (Partnership)",
-		"duration": "Semester"
-	},
-	{
-		"name": "Elementary Chinese 2",
-		"subject": "World Language",
-		"type": "Dual Enrollment (Partnership)",
-		"duration": "Year"
-	},
-	{
 		"name": "Engineering Design/Development Honors",
 		"subject": "Elective",
 		"type": "Honors",
@@ -810,25 +780,13 @@
 		"duration": "Year"
 	},
 	{
-		"name": "English 1A (El Camino)",
-		"subject": "English",
-		"type": "Dual Enrollment (Partnership)",
-		"duration": "Semester"
-	},
-	{
-		"name": "English 1A (El Camino)",
+		"name": "English 1A - Reading and Composition",
 		"subject": "English",
 		"type": "Dual Enrollment (Partnership)",
 		"duration": "Year"
 	},
 	{
-		"name": "English 1C (El Camino)",
-		"subject": "English",
-		"type": "Dual Enrollment (Partnership)",
-		"duration": "Semester"
-	},
-	{
-		"name": "English 1C (El Camino)",
+		"name": "English 1C - Critical Thinking and Composition",
 		"subject": "English",
 		"type": "Dual Enrollment (Partnership)",
 		"duration": "Year"
@@ -1074,6 +1032,18 @@
 		"duration": "Year"
 	},
 	{
+		"name": "HIST 102 - United States History from 1877 to the Present",
+		"subject": "Social Studies",
+		"type": "Dual Enrollment (Partnership)",
+		"duration": "Year"
+	},
+	{
+		"name": "HIST 141 - History of Modern Civilizations",
+		"subject": "Social Studies",
+		"type": "Dual Enrollment (Partnership)",
+		"duration": "Year"
+	},
+	{
 		"name": "Health",
 		"subject": "Health",
 		"type": "Regular",
@@ -1112,30 +1082,6 @@
 		"duration": "Year"
 	},
 	{
-		"name": "Intermediate Chinese 1",
-		"subject": "World Language",
-		"type": "Dual Enrollment (Partnership)",
-		"duration": "Semester"
-	},
-	{
-		"name": "Intermediate Chinese 1",
-		"subject": "World Language",
-		"type": "Dual Enrollment (Partnership)",
-		"duration": "Year"
-	},
-	{
-		"name": "Intermediate Conversational Chinese",
-		"subject": "World Language",
-		"type": "Dual Enrollment (Partnership)",
-		"duration": "Semester"
-	},
-	{
-		"name": "Intermediate Conversational Chinese",
-		"subject": "World Language",
-		"type": "Dual Enrollment (Partnership)",
-		"duration": "Year"
-	},
-	{
 		"name": "Intermediate Dance",
 		"subject": "PE/Sport",
 		"type": "Regular",
@@ -1169,18 +1115,6 @@
 		"name": "Intermediate Theatre Arts",
 		"subject": "Fine Art",
 		"type": "Regular",
-		"duration": "Year"
-	},
-	{
-		"name": "Intro to Chinese Language & Culture",
-		"subject": "World Language",
-		"type": "Dual Enrollment (Partnership)",
-		"duration": "Semester"
-	},
-	{
-		"name": "Intro to Chinese Language & Culture",
-		"subject": "World Language",
-		"type": "Dual Enrollment (Partnership)",
 		"duration": "Year"
 	},
 	{
@@ -1438,6 +1372,12 @@
 		"type": "Regular",
 		"duration": "Year",
 		"credits": 5
+	},
+	{
+		"name": "POLI 1 - Governments of the United States and California",
+		"subject": "Social Studies",
+		"type": "Dual Enrollment (Partnership)",
+		"duration": "Year"
 	},
 	{
 		"name": "Pep Squad (Cheer)",

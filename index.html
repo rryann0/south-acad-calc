@@ -25,7 +25,7 @@
     <main>
         <section id="gpa-prediction">
             <h2>Weighted GPA Calculator</h2>
-            <p>Do not enter PE/Sports grades. Check the About section for more details.</p>
+            <p>Check the About section for more details.</p>
             <form id="gpa-form">
                 <div id="class-entries">
                     <div class="class-controls-container">
@@ -56,7 +56,7 @@
 
         <section id="graduation-requirements">
             <h2>Graduation Requirements</h2>
-            <p>After entering your classes in the GPA Calculator, use this section to track graduation progress for TUSD.</p>
+            <p>After entering your classes in the GPA Calculator, use this section to track your TUSD graduation progress.</p>
             <button type="button" id="check-requirements">Check Graduation Progress</button>
             <div id="requirements-status">
                 <h3>Graduation Progress</h3>
@@ -71,15 +71,14 @@
             <p>This tool helps students predict their GPA and track graduation requirements.</p>
             <p><b>Calculator Info</b></p>
             <ul>
-                <li>Regular classes are based on a 4.0 scale. (A = 4.0, B = 3.0, etc.)</li>
-                <li>Honors and AP classes are based on a 5.0 scale. (A = 5.0, B = 4.0, etc.)</li>
-                <li>Your "points" for a class are your scale number (5.0, 4.0, etc.) multiplied by the credit hours you received (10 for 1 semester).</li>
-                <li>Your weighted GPA is then calculated by averaging the sum of these "points" with your credit hours.</li>
-                <li>Dual enrollment classes outside of partnership classes (like summer history classes) are classified as regular classes if added to your high school transcript.</li>
-                <li>PE/Sports classes are not counted towards your weighted GPA.</li>
+                <li>For Regular classes: A = 4.0, B = 3.0, C = 2.0, ...</li>
+                <li>For Honors/AP/Dual Enrollment classes: A = 5.0, B = 4.0, C = 3.0, ...</li>
+                <li>A semester of a class grants you 5 credits. Dual Enrollment Partnership classes with El Camino are 10 credits each (the equivalent of a year's credits).</li>
+                <li>Weighted GPA = Σ(Grades * Credits) / Σ(Credits)</li>
+                <li>PE/Sport classes are not considered in your weighted GPA.</li>
             </ul>
 
-            <p>Created by Ryan Lee, c/o 2027</p>
+            <p>Created by Ryan Lee, Class of 2027</p>
         </section>
     </main>
     <script src="index.js"></script>

@@ -203,3 +203,56 @@ footer {
     white-space: nowrap;
     overflow: hidden;
 }
+
+/* graduation requirement progress bars */
+.requirement-category {
+    margin-bottom: 20px;
+}
+
+.requirement-category h3 {
+    color: #333;
+    margin-bottom: 10px;
+    font-weight: normal;
+    font-size: 1em;
+}
+
+.subcategories {
+    margin-left: 20px;
+}
+
+.subcategory {
+    margin-bottom: 10px;
+}
+
+.requirement-item {
+    margin-bottom: 15px;
+}
+
+.progress-bar {
+    width: 100%;
+    height: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 5px;
+}
+
+.progress {
+    height: 100%;
+    transition: width 0.5s ease-in-out;
+}
+
+#requirement-list {
+    list-style: none;
+    padding: 0;
+}
+
+#requirement-list li {
+    margin-bottom: 20px;
+}
+
+.subcategory span, .requirement-item span {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
