@@ -53,7 +53,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const enteredClasses = [];
     
     const initializeSelect2 = (selector) => {
-        $('#class-select').select2({placeholder: 'Search for a class', minimumInputLength: 3});
+        $('#class-select').select2({placeholder: 'Search for a class', minimumInputLength: 2});
     };
     initializeSelect2('#class-select');
 
